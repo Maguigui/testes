@@ -8,7 +8,7 @@
 /*Estilos globais*/
 body {
     font-family: 'Times New Roman', Times, serif; /*Fonte do texto*/
-    background-color: rgb(5, 104, 96); /*Cor do fundo*/
+    background-image: url('ceu.jpg'); /*Imagem do fundo*/
     color:rgb(0, 0, 0);
     display: flex; /*Libera o conteúdo interno do body*/
     justify-content: center; /*Centraliza o conteúdo Horizontal*/
@@ -18,7 +18,7 @@ body {
 
 /*Formatação da caixa*/
 .conteiner {
-    background-color: rgb( 255, 255, 255); /*Cor do fundo da caixa*/
+    background-color: rgba(255, 255, 255, 0.678); /*Cor do fundo da caixa*/
     padding: 20px; /*Margem interna da caixa*/
     border-radius: 15px; /*Borda arredondada*/
     box-shadow: 10px 12px rgba(0, 0, 0, 0.7); /*Sombreamento da caixa*/
@@ -30,7 +30,7 @@ body {
 /*Formatação do título*/
 h1 {
     font-size:  30px; /*Tamanho da fonte do título*/
-    color: darkblue; /*Cor do título*/
+    color: rgb(5, 5, 83); /*Cor do título*/
     margin-bottom: 20px; /*Margem inferior do título*/
 }
 
@@ -78,3 +78,4 @@ button{
     width: 100%;
     cursor: pointer;
 }
+
