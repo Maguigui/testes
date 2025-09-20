@@ -1,3 +1,0 @@
-Bolacha | 6.0 | 3 
-Guarana | 9.0 | 4 
-Coca-cola | 7.0 | 8 

@@ -1,0 +1,81 @@
+/*Reset das margens da página*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Estilos globais*/
+body {
+    font-family: 'Times New Roman', Times, serif; /*Fonte do texto*/
+    background-image: url('ceu.jpg'); /*Imagem do fundo*/
+    color:rgb(0, 0, 0);
+    display: flex; /*Libera o conteúdo interno do body*/
+    justify-content: center; /*Centraliza o conteúdo Horizontal*/
+    align-items: center; /*Centarliza o conteúdo Vertical*/       
+    height: 100vh; /*Deixa o conteúdo no centro da página*/
+}
+
+/*Formatação da caixa*/
+.conteiner {
+    background-color: rgba(255, 255, 255, 0.678); /*Cor do fundo da caixa*/
+    padding: 20px; /*Margem interna da caixa*/
+    border-radius: 15px; /*Borda arredondada*/
+    box-shadow: 10px 12px rgba(0, 0, 0, 0.7); /*Sombreamento da caixa*/
+    width: 100%; /*Largura*/
+    max-width: 400px; /*Largura máxima*/
+    text-align: center; /*Alinhamento do texto*/
+}
+
+/*Formatação do título*/
+h1 {
+    font-size:  30px; /*Tamanho da fonte do título*/
+    color: rgb(5, 5, 83); /*Cor do título*/
+    margin-bottom: 20px; /*Margem inferior do título*/
+}
+
+/*Formatação para cada campo do formulário*/
+.form-group { 
+    margin-bottom: 20px; /*Distanciamento de cada campo*/
+    text-align: left; /*Alinhamento para a esquerda*/
+}
+
+/*Formatação dos nomes de cada campo*/
+label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="date"],
+input[type="password"] {
+    width: 100%; /*Largura total do input*/
+    padding: 7px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="email"]:focus,
+input[type="date"]:focus,
+input[type="password"]:focus {
+    border-color: rgb(6, 16, 148);
+    outline: none;
+}
+
+button{
+    background-color: teal;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    font-size: 16px;
+    width: 100%;
+    cursor: pointer;
+}
+
